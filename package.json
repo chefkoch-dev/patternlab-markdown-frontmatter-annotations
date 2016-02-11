@@ -1,0 +1,23 @@
+{
+  "name": "patternlab-markdown-frontmatter-annotations",
+  "version": "1.0.0",
+  "description": "Write your patternlab annotations in markdown with frontmatter meta data",
+  "main": "index.js",
+  "scripts": {
+    "watch": "chokidar 'index.js' -c 'node index.js' "
+  },
+  "keywords": [
+    "patternlab",
+    "markdown",
+    "frontmatter"
+  ],
+  "author": "soundyogi",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar-cli": "^1.2.0",
+    "front-matter": "^2.0.5",
+    "marked": "^0.3.5",
+    "rx": "^4.0.7",
+    "walk": "^2.3.9"
+  }
+}
